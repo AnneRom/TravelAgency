@@ -7,7 +7,8 @@
 
 .listItem {
     border-bottom: 2px solid transparent;
-
+    font-size: 20px;
+    font-weight: 600;
 }
 .listItem:hover {
     border-bottom: 2px solid #FA8B02;
@@ -15,7 +16,7 @@
 }
 
 .listItem.white {
-    color: white;
+    color: green;
 }
 .listItem.black {
     color: black;
