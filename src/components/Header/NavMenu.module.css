@@ -1,5 +1,6 @@
 .navList {
-    max-width: 518px;
+    /* max-width: 518px; */
+    gap: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +17,7 @@
 }
 
 .listItem.white {
-    color: green;
+    color: white;
 }
 .listItem.black {
     color: black;

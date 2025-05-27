@@ -2,6 +2,7 @@ import styles from './Header.module.css'
 import Button from '../Button'
 import Logo from './Logo'
 import NavMenu from './NavMenu'
+import LangSelector from './LangSelector'
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
                 <NavMenu variant='white'/>
                 {/* <NavMenu variant='black'/> */}
                 <div className={styles.headerRight}>
+                    <LangSelector />
                     <Button text="Login" widthBtn={77} variant="login"/>
                     <Button text="Sign Up" widthBtn={168}/>
                 </div> 
