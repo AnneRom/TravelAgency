@@ -8,8 +8,8 @@ const LangSelector = () => {
     const [open, setOpen] = useState(false);
 
     const languages = [
-        {code: 'en', label: 'EN'},
-        {code: 'ua', label: 'UA'},
+        {code: 'en', label: 'Eng'},
+        {code: 'ua', label: 'Ukr'},
     ];
 
     const currentLang = i18n.language;
