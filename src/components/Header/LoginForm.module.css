@@ -1,18 +1,59 @@
 .form {
-
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
 }
 .label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 0.60);
 
 }
-.field {
-
+.fieldWrapper {
+    margin-bottom: 20px;
+    position: relative;
+}
+.field { 
+    border-radius: 8px;
+    color: rgba(51, 51, 51, 1);
+    border: 1px solid rgba(51, 51, 51, 0.20);
+    padding: 14px 24px;
+}
+.field:not(:last-child) {
+    margin-bottom: 10px;
+}
+.field::placeholder {
+    opacity: 0.5;
+}
+.field:focus {
+    background: rgba(250, 139, 2, 0.1)
+}
+.fieldPassword {
+   
 }
 .error {
-
+    color: red;
+    padding: 0 24px;
+    opacity: 0.5;
+    font-weight: 600;
 }
 .eye {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    right: 24px;
+
+}
+.forgotLink {
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(51, 51, 51, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
 
 }
 .btn {
-    
+
 }

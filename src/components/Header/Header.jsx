@@ -25,12 +25,12 @@ const Header = () => {
 
     const getModalContent = () => {
         switch (modalType) {
-            case 'login': return <LoginForm />
-            case 'signup': return <SignUpForm />
-            case 'fogotPassword': return <FogotPassForm />
-            case 'verifyEmail': return <VerifyEmail />
-            case 'newPassword': return <NewPassForm />
-            case 'resetPassword': return <ResetPass />
+            case 'Login': return <LoginForm />
+            case 'Create Account': return <SignUpForm />
+            case 'Forgot Password': return <FogotPassForm />
+            case 'Check your email': return <VerifyEmail />
+            case 'Set New Password': return <NewPassForm />
+            case 'Password Reset': return <ResetPass />
             default: return null
         }
     }
@@ -43,7 +43,7 @@ const Header = () => {
                 {/* <NavMenu variant='black'/> */}
                 <div className={styles.headerRight}>
                     <LangSelector />
-                    <Button text={t('login')} widthBtn={77} variant="login" onClick={() => openModal('login')}/>
+                    <Button text={t('login')} widthBtn={77} variant="login" onClick={() => openModal('Login')}/>
                     <Button text={t('signup')} widthBtn={168}/>
                 </div> 
             </div>
